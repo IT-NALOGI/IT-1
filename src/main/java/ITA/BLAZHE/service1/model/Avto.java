@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
 
-@Document(value = "termin")
+@Document(value = "avto")
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
