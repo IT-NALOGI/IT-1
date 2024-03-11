@@ -1,4 +1,4 @@
-package ITA.BLAZHE.service1.testing;
+package ITA.BLAZHE.service1;
 
 import ITA.BLAZHE.service1.controller.AvtoController;
 import ITA.BLAZHE.service1.model.Avto;
@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(AvtoController.class)
-public class AvtoControllerTest {
+public class AvtoControllerTests {
 
     @Autowired
     private MockMvc mockMvc;
