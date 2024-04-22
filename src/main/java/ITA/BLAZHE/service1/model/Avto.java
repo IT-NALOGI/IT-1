@@ -26,6 +26,5 @@ public class Avto {
     private String registracija;
     private LocalDateTime prvaRegistracija;
     private LocalDateTime registracijaDo;
-
 }
 
