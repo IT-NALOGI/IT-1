@@ -30,8 +30,8 @@ jobs:
     
     # Build the Docker image
     - name: Build Docker image
-      run: docker build -t your-dockerhub-username/your-repo-name:your-tag .
+      run: docker build -t blazhe/it-1:latest .
 
     # Push the Docker image to Docker Hub
     - name: Push Docker image to DockerHub
-      run: docker push your-dockerhub-username/your-repo-name:your-tag
+      run: docker push blazhe/it-1:latest .
